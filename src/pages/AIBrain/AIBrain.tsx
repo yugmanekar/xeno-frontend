@@ -128,7 +128,7 @@ export default function AIBrain() {
                   <RechartsTooltip 
                     contentStyle={{ background: 'var(--bg-elevated)', border: '1px solid var(--border-default)', borderRadius: 8, fontSize: 13 }}
                     itemStyle={{ color: 'var(--text-primary)' }}
-                    formatter={(val: number) => [`₹${val.toLocaleString('en-IN')}`, 'Revenue']}
+                    formatter={(val: any) => [`₹${Number(val).toLocaleString('en-IN')}`, 'Revenue']}
                     labelFormatter={(val) => {
                       const d = new Date(val + '-01');
                       return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
