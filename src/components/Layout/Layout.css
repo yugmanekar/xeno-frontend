@@ -1,0 +1,16 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  margin-left: var(--sidebar-width);
+  flex: 1;
+  min-height: 100vh;
+  position: relative;
+  transition: margin-left var(--duration-normal) var(--ease-out);
+}
+
+.main-content.expanded {
+  margin-left: var(--sidebar-collapsed);
+}

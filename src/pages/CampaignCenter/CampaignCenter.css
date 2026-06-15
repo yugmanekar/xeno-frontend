@@ -1,0 +1,16 @@
+.campaign-layout { display: flex; gap: 24px; }
+.campaign-list { flex: 1; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.campaign-card { padding: 20px; }
+.campaign-card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
+.campaign-name { font-size: var(--font-md); font-weight: 600; }
+.campaign-stats { border-top: 1px solid var(--border-subtle); padding-top: 16px; }
+.campaign-progress { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.progress-bar { flex: 1; height: 4px; background: var(--bg-elevated); border-radius: 2px; overflow: hidden; }
+.progress-fill { height: 100%; background: var(--accent-gradient); border-radius: 2px; transition: width 0.5s var(--ease-out); }
+.delivery-stats { display: flex; gap: 16px; }
+.delivery-stat { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.delivery-stat-value { font-size: var(--font-lg); font-weight: 700; }
+.delivery-stat-label { font-size: var(--font-xs); color: var(--text-tertiary); }
+.event-stream { width: 280px; flex-shrink: 0; }
+.event-stream-list { max-height: calc(100vh - 280px); overflow-y: auto; display: flex; flex-direction: column; gap: 4px; }
+.stream-event { display: flex; align-items: center; gap: 6px; padding: 6px 8px; background: var(--bg-glass); border-radius: var(--radius-sm); }

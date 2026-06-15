@@ -1,0 +1,14 @@
+.memory-filters { display: flex; gap: 6px; margin-bottom: 20px; }
+.memory-grid { display: flex; flex-direction: column; gap: 8px; }
+.memory-card { padding: 16px 20px; }
+.memory-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.memory-type-badge { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: var(--radius-full); font-size: var(--font-xs); font-weight: 500; }
+.memory-title { font-size: var(--font-md); font-weight: 500; }
+.memory-content { font-size: var(--font-sm); color: var(--text-secondary); line-height: 1.7; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-subtle); }
+.memory-meta { display: flex; align-items: center; gap: 8px; margin-top: 12px; }
+.memory-confidence { display: flex; align-items: center; gap: 6px; font-size: var(--font-xs); color: var(--text-tertiary); }
+.confidence-bar { width: 40px; height: 3px; background: var(--bg-elevated); border-radius: 2px; overflow: hidden; }
+.confidence-fill { height: 100%; border-radius: 2px; }
+.mini-stat { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 12px; background: var(--bg-glass); border-radius: var(--radius-md); text-align: center; }
+.mini-label { font-size: var(--font-xs); color: var(--text-tertiary); }
+.mini-value { font-size: var(--font-lg); font-weight: 700; }

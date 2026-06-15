@@ -1,0 +1,93 @@
+.brain-greeting { margin-bottom: 32px; }
+.brain-hello { font-size: var(--font-4xl); font-weight: 700; letter-spacing: -0.02em; }
+.brain-date { font-size: var(--font-md); color: var(--text-tertiary); margin-top: 4px; }
+
+.brain-stats { margin-bottom: 40px; }
+
+.stat-card { padding: 20px; }
+.stat-card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.stat-icon { width: 32px; height: 32px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; }
+.stat-label { font-size: var(--font-sm); color: var(--text-secondary); }
+.stat-value { font-size: var(--font-2xl); font-weight: 700; letter-spacing: -0.02em; }
+
+.brain-section { margin-bottom: 32px; }
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.section-title { font-size: var(--font-lg); font-weight: 600; }
+
+.insight-card {
+  position: relative;
+  overflow: hidden;
+  padding: 20px 20px 16px;
+}
+
+.insight-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  opacity: 0.6;
+}
+
+.insight-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.insight-icon {
+  width: 32px; height: 32px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.insight-meta {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.insight-type {
+  font-size: var(--font-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.insight-confidence {
+  font-size: var(--font-xs);
+  color: var(--text-muted);
+}
+
+.insight-value {
+  font-size: var(--font-xl);
+  font-weight: 700;
+}
+
+.insight-title {
+  font-size: var(--font-md);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.insight-desc {
+  font-size: var(--font-sm);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.insight-action {
+  margin-left: -4px;
+}
